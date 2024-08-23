@@ -9,20 +9,20 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "target": "ESNext",
-   "baseUrl": "./",
-   "paths": {
-     "@/*": ["./src/*"]
-   },
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
     "strict": true
   },
- "include": [
-   "**/*.ts",
-   "**/*.tsx",
-   "**/*.js",
-   "**/*.jsx",
-   ".eslintrc.cjs",
-   ".prettierrc.mjs",
-   "babel.config.cjs"
- ],
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.js",
+    "**/*.jsx",
+    ".eslintrc.cjs",
+    ".prettierrc.mjs",
+    "babel.config.cjs"
+  ],
   "exclude": ["node_modules", "metro.config.js", "jest.config.js"]
 }
